@@ -59,4 +59,10 @@ int main()
 	point1.Input();
 
 	point1.Print();
+
+
+	Car car1;
+
+	car1.Input();
+	car1.Print();
 }
