@@ -1,4 +1,5 @@
 ﻿#include<iostream>
+#include <string>
 using namespace std;
 
 class Point
@@ -38,6 +39,18 @@ class Car
 	string color;
 public:
 
+	void Input()
+	{
+		cout << "Input model car: ";
+		getline(cin, model);
+		cout << "Input color car: ";
+		getline(cin, color);
+	}
+	void Print()
+	{
+		cout << "Model: " << model<<endl;
+		cout << "Color: " << color << endl;
+	}
 };
 
 int main()
