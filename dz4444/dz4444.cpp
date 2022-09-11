@@ -33,5 +33,8 @@ public:
 };
 int main()
 {
+	Point point1;
+	point1.Input();
 
+	point1.Print();
 }
