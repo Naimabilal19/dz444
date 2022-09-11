@@ -31,6 +31,15 @@ public:
 		cout << "\nZ = " << z;
 	}
 };
+
+class Car
+{
+	string model;
+	string color;
+public:
+
+};
+
 int main()
 {
 	Point point1;
